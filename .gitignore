@@ -1,0 +1,7 @@
+node_modules
+.sonarlint
+.nyc_output
+coverage
+*.js
+*.js.map
+*.d.ts

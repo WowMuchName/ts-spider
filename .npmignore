@@ -1,0 +1,11 @@
+node_modules
+coverage
+.nyc_output
+.sonarlint
+test
+lib
+tslint.json
+.vscode
+.gitignore
+tsconfig.json
+.npmignore

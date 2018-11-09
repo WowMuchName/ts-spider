@@ -1,0 +1,38 @@
+{
+  "name": "ts-spider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:coverage": "nyc --extension .ts npm test && nyc report --reporter=html --reporter=lcov",
+    "test": "mocha --require ts-node/register test/spider.ts"
+  },
+  "author": "Mark Albert",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "debug": "^4.1.0",
+    "node-fetch": "^2.2.1",
+    "@types/cheerio": "^0.22.9",
+    "@types/node-fetch": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/async": "^2.0.50",
+    "@types/chai": "^4.1.3",
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.2",
+    "@types/node": "^10.12.3",
+    "chai": "^4.1.2",
+    "express": "^4.16.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "nyc": "^13.1.0",
+    "rimraf": "^2.6.2",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.10.0",
+    "typedoc": "^0.13.0",
+    "typescript": "^3.1.6",
+    "uglify-es": "^3.3.9"
+  }
+}
